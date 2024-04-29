@@ -1,0 +1,43 @@
+@media (max-device-width: 768px) {
+    #desktop_header {display: none;}
+    #tablet_header {display: none;}
+    #mobile_header {display: block;}
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+    #desktop_header {display: none;}
+    #tablet_header {display: block;}
+    #mobile_header {display: none;}
+}
+
+@media (min-device-width: 1024px) {
+    #desktop_header {display: block;}
+    #tablet_header {display: none;}
+    #mobile_header {display: none;}
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 30px;
+    background-color: #fff;
+}
+
+#main {
+    height: 500px;
+    border: 1px solid black;
+}
+
+#ball {
+    position: relative;
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    z-index: -10;
+}

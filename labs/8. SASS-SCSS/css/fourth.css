@@ -1,0 +1,64 @@
+.heading {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.body {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 30px;
+}
+
+.nav {
+  background-color: rgb(235, 235, 235);
+  margin-top: 20px;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.nav_item {
+  font-family: sans-serif;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+.article, .container_item {
+  background-color: rgb(235, 235, 235);
+  height: 200px;
+  padding: 20px 60px;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.container_item {
+  width: 32%;
+}
+
+.footer {
+  background-color: rgb(235, 235, 235);
+  margin-top: 30px;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.footer_item {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/*# sourceMappingURL=fourth.css.map */

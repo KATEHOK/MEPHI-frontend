@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="importmap">
+        {
+          "imports": {
+            "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+          }
+        }
+    </script>
+    <title>Simple Vue</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Clickes: {{ count }}</h1>
+        <button v-on:click="onClick">Click</button>
+    </div>
+
+    <script type="module">
+        import { createApp, ref } from 'vue'
+
+        console.log('Hello World!')
+
+        const app = createApp({
+            setup() {
+                const count = ref(0)
+                const onClick = () => {
+                    count.value++
+                    console.log(count.value)
+                }
+                return {
+                    count,
+                    onClick
+                }
+            }
+        })
+
+        app.mount('#app')
+    </script>
+</body>
+</html>

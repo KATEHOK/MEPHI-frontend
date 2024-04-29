@@ -1,0 +1,26 @@
+{
+  "name": "axios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "node dst/js/task.js",
+    "dev-browser": "nodemon server.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo Hello World!",
+    "index": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

@@ -1,0 +1,46 @@
+table {
+    width: 90vw;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    background-color: rgb(117, 251, 253);
+}
+
+.red-blue_txt {
+
+}
+
+.red_txt {
+    color: red;
+}
+
+.blue_txt {
+    color: blue;
+}
+
+.neucha_ff {
+    font-family: "Neucha", cursive;
+    font-style: normal;
+}
+
+.italic_txt {
+    font-style: italic;
+}
+
+.underlined_txt {
+
+}
+
+.td_underline {
+    text-decoration: underline;
+}
+
+.bold_txt {
+    font-weight: bold;
+}
+
+.lined-through_txt {
+    text-decoration: line-through;
+}
